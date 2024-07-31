@@ -33,6 +33,10 @@ https://github.com/yangbuyiya/test-yby6-openai-review
 | WEIXIN_TOUSER       | `OPENID 微信公众号关注后推送的人`                                                          |
 
 # 新增workflows 代码审核 main-remote-jar.yml
+
+> 评审代码的分钟默认为 `master` 分支
+> 如需更改分支，修改 `push` branches，`pull_request` branches 即可
+
 ```yaml
 
 name: Build and Run OpenAiCodeReview By Main Maven Jar
