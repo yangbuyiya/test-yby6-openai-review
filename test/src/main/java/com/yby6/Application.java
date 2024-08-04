@@ -34,6 +34,11 @@ public class Application {
         while (true) {
             // do nothing
         }
+        System.out.println("Hello World Code Review");
+        
+        System.out.println(Integer.parseInt("ddd"));
+        // https://github.com/yangbuyiya/test-yby6-openai-review
+        
         // 内存溢出
         List<byte[]> byteList = new ArrayList<>();
         while (true) {
@@ -50,53 +55,12 @@ public class Application {
         while (true) {
             // do nothing
         }
-        // 内存溢出
-        List<byte[]> byteList = new ArrayList<>();
-        while (true) {
-            try {
-                byte[] bytes = new byte[Integer.MAX_VALUE];
-                byteList.add(bytes);
-            } catch (OutOfMemoryError e) {
-                System.out.println("内存溢出");
-                break;
-            }
-        }
-        System.out.println(byteList.size());
         
-        while (true) {
-            // do nothing
-        }  // 内存溢出
-        List<byte[]> byteList = new ArrayList<>();
-        while (true) {
-            try {
-                byte[] bytes = new byte[Integer.MAX_VALUE];
-                byteList.add(bytes);
-            } catch (OutOfMemoryError e) {
-                System.out.println("内存溢出");
-                break;
-            }
-        }
-        System.out.println(byteList.size());
+        System.out.println("Hello World Code Review");
         
-        while (true) {
-            // do nothing
-        }
-        // 内存溢出
-        List<byte[]> byteList = new ArrayList<>();
-        while (true) {
-            try {
-                byte[] bytes = new byte[Integer.MAX_VALUE];
-                byteList.add(bytes);
-            } catch (OutOfMemoryError e) {
-                System.out.println("内存溢出");
-                break;
-            }
-        }
-        System.out.println(byteList.size());
+        System.out.println(Integer.parseInt("ddd"));
+        // https://github.com/yangbuyiya/test-yby6-openai-review
         
-        while (true) {
-            // do nothing
-        }
         // 内存溢出
         List<byte[]> byteList = new ArrayList<>();
         while (true) {
