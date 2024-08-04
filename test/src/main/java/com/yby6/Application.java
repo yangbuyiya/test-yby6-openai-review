@@ -20,13 +20,6 @@ public class Application {
         
         // 内存溢出
         List<byte[]> byteList = new ArrayList<>();
-        List<byte[]> byteList = new ArrayList<>();
-        List<byte[]> byteList = new ArrayList<>();
-        List<byte[]> byteList = new ArrayList<>();
-        List<byte[]> byteList = new ArrayList<>();
-        List<byte[]> byteList = new ArrayList<>();
-        List<byte[]> byteList = new ArrayList<>();
-        List<byte[]> byteList = new ArrayList<>();
         while (true) {
             try {
                 byte[] bytes = new byte[Integer.MAX_VALUE];

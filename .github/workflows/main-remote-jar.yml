@@ -74,3 +74,4 @@ jobs:
           # OpenAi - ChatGLM 配置「https://open.bigmodel.cn/api/paas/v4/chat/completions」、「https://open.bigmodel.cn/usercenter/apikeys」
           CHAT_API: ${{ secrets.CHAT_API }}
           CHAT_APPKEY: ${{ secrets.CHAT_APPKEY }}
+          CHAT_MODEL: ${{ secrets.CHAT_MODEL }}
